@@ -1,0 +1,83 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+body{
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+  height: auto;
+  padding:2em;
+  font-size:2em;
+  background-image: url("../imgs/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+.header .main-text{
+  height:auto;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.header h1{
+  font-weight: 400;
+  margin:0px;
+}
+
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products .product {
+    display:flex;
+    padding-left:20px;
+    align-items: center;
+    padding-top:20px;
+}
+
+.products .product .info {
+    padding-left:50px;
+}
+
+#imagen {
+    width:22em;
+    height:15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid green;
+    transition: width 1.5s ease, height 2.5s ease;
+}
+
+#imagen:hover {
+  width: 30em;
+  height: 20em;;
+}
+
+.products td{
+  width: 50%;
+  padding: 2em;
+}
+
+.products img{
+  max-width: 100%;
+  border: solid 1px #ddd;
+}
+
+.footer{
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(185, 112, 41);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
